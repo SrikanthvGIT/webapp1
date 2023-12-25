@@ -10,7 +10,7 @@
 
 	<properties>
 		<docker.image.prefix>kammana</docker.image.prefix>
-		<sonar.host.url>http://ec2-18-206-232-68.compute-1.amazonaws.com:9000/</sonar.host.url>
+		<sonar.host.url>http://18.207.2.19:9000/</sonar.host.url>
 
 	</properties>
 
@@ -18,12 +18,12 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>nexusRepo</id>
-		    <url>http://18.210.14.137:8081/repository/srinexus-snapshot/</url>
+		    <url>http://54.198.44.68:8081/repository/srinexus-snapshot/</url>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>nexusRepo</id>
-		    <url>http://18.210.14.137:8081/repository/srinexus-release/</url>
+		    <url>http://54.198.44.68:8081/repository/srinexus-release/</url>
 		</repository>
   	</distributionManagement>
 	
